@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* --linear-gradient: linear-gradient(270deg, #DF8908 10%, #B415FF 100%); */
+    --linear-gradient-text: linear-gradient(
+    to right,
+    #ff9a9e,  /* Rosa suave */
+    #fad0c4,  /* Rosa pálido */
+    #fad0c4,  /* Rosa pálido */
+    #fbc2eb,  /* Rosa claro */
+    #a6c1ee,  /* Azul claro */
+    #a1c4fd,  /* Azul suave */
+    #c2e9fb   /* Azul muy claro */
+    );
+    --linear-gradient: linear-gradient(
+        to right,
+        #6a11cb,  /* Azul púrpura oscuro */
+        #2575fc   /* Azul brillante */
+      );
+  }
+
+body {
+    height: 100vh;
+    background: #161513;
+    color: white;
+    font-family: 'outfit';
+}
