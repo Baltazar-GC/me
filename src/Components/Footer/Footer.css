@@ -82,7 +82,8 @@
 
 @media(max-width:768px) {
     .footer {
-        margin: 50px 70px;
+        margin: 50px 10px;
+        text-align: center;
     }
 
     .footer-top {

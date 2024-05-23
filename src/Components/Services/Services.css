@@ -83,6 +83,7 @@
         align-items: start;
         gap: 70px;
         margin: 20px 70px;
+        text-align: center;
     }
 
     .services-title h1 {
