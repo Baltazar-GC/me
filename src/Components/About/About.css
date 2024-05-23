@@ -98,6 +98,11 @@
 .about-achievement p {
     font-size: 22px;
     font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .about-skill:hover {

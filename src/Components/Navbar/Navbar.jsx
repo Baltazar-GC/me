@@ -31,7 +31,10 @@ const Navbar = () => {
               {menuItems.map(item => (
                   <li key={item.key}>
                       <AnchorLink className='anchor-link' offset={50} href={`#${item.key}`}>
-                        <p onClick={() => setMenu(item.key)}>
+                        <p onClick={() => {
+                            closeMenu()
+                            setMenu(item.key)
+                            }}>
                             {item.name}
                         </p>
                       </AnchorLink>

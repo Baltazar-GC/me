@@ -17,12 +17,12 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 15px;
     font-size: 20px;
 }
 
 .nav-connect {
-    padding: 20px 40px;
+    padding: 14px 20px;
     border-radius:  50px;
     background: var(--linear-gradient);
     font-size: 22px;
@@ -57,6 +57,18 @@
 
 .nav-mob-open {
     display: none;
+}
+
+@media(max-width:1100px)
+{
+    .navbar {
+        margin: 20px 10px;
+    }
+
+    .nav-connect {
+        padding: 10px 15px;
+        font-size: 20px;
+    }
 }
 
 @media(max-width:768px) {
